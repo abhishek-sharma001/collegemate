@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Carter+One&family=Domine:wght@500&family=Fredoka+One&family=Merriweather&family=Playfair+Display:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+    --navheight: 80px;
+}
+
+/* body {
+    display: flex;
+flex-direction: column;
+} */
+
+html,
+body {
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+/* ---------------------------nav------------------------------ */
+
+
+
+
+
+
+
+nav {
+    background-color: rgb(184 40 255);
+
+    display: flex;
+    z-index: 100;
+
+    width: 100%;
+    height: var(--navheight);
+
+    position: fixed;
+    top: 0px;
+
+    justify-content: space-around;
+
+    box-shadow: 0px 1px 8px 1px black;
+}
+
+
+
+
+nav .left_nav {
+    display: flex;
+    align-items: center;
+   
+}
+
+
+
+nav .left_nav #logoimg {
+    display: flex;
+
+    width: 70px;
+    height: 70px;
+
+    margin: auto 5px;
+
+    border-radius: 10px;
+}
+
+
+
+nav .left_nav h1 a {
+    display: block;
+
+
+    font-size: 40px;
+    margin: auto 8px;
+    letter-spacing: .15px;
+
+    color: rgb(255, 255, 255);
+
+    font-family: 'Fredoka One', cursive;
+    font-weight: 100;
+
+
+
+}
+
+
+
+
+nav .center_nav ul {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+
+nav .center_nav li {
+    display: inline-block;
+    line-height: var(--navheight);
+    margin: 0px 8px;
+
+
+
+}
+
+
+nav .center_nav li a {
+    padding: 8px 14px;
+    font-size: 19px;
+
+    color: rgb(252, 252, 252);
+
+    font-family: 'Domine', serif;
+
+    border-radius: 3px;
+
+    letter-spacing: .5px;
+
+
+
+
+
+
+}
+
+nav .center_nav li a:hover {
+    transition: background-color .2s ease-in;
+    background-color: rgba(205, 106, 255, 0.782);
+
+
+}
+
+
+nav .right_nav {
+    line-height: var(--navheight);
+
+}
+
+nav #or {
+    font-size: 18px;
+    color: black;
+}
+
+
+nav .right_nav a {
+    background-color: white;
+
+    padding: 7px 14px;
+    margin: 0px 5px;
+    font-size: 19px;
+
+    border-radius: 20px;
+}
+
+nav #home_tab{
+    background-color: rgba(205, 106, 255, 0.782);
+
+}
+
+
+
+
+
+/* -----------bars----------------------------------- */
+
+#input_checkbox,#input_checkbox1,#input_checkbox3{
+    display: none;
+
+}
+
+#label_checkbox{
+    display: none;
+    line-height: var(--navheight);
+    font-size: 26px;
+}
+
+
+#i_for_cross{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+/* -----------------------main--------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main .mid_roll {
+
+    height: 40px;
+    text-align: center;
+    background-color: rgb(172, 77, 255);
+    color: rgb(0, 0, 0);
+
+}
+
+main .mid_roll h2 {
+    line-height: 40px;
+
+}
+
+
+main .all_clgs {
+    height: 100%;
+
+
+}
+
+
+
+main .cards {
+    
+    /* margin: 10px 50px; */
+
+    padding: 40px 150px 80px 150px;
+
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+   width: 100%;
+
+}
+
+
+main .one {
+    background-image: url('dtu_oat.jpg');
+
+}
+
+main .two {
+    background-image: url('nsut5.jpg');
+
+}
+
+
+
+
+main .content {
+    /* position: absolute; */
+    margin: 50px 5px;
+        
+    color: white;
+    background-color:rgb(0 0 0 / 24%);
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px 1px rgb(0, 0, 0);
+    border-radius: 20px;
+
+    padding: 15px;
+    
+
+
+}
+
+
+
+main .content .top {
+    display: flex;
+    justify-content: center;
+    background-color:rgb(239, 0, 0);
+
+    border-radius: 22px;
+    /* width: fit-content; */
+    margin: 0px auto;
+
+
+}
+
+main .content .top .clgname {
+    margin: auto 20px;
+}
+
+main .content .clgname a {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+
+main .content .clglogo {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 10px 0px 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main .content .mid {
+    padding: 15px;
+
+}
+
+
+
+main .content .mid h2 {
+    font-size: 28px;
+    font-family: 'Domine', serif;
+    margin: 20px 0px;
+    color: #ffffff;
+
+    background-color: rgb(0, 179, 255);
+
+    width: fit-content;
+    padding: 7px 14px;
+
+    letter-spacing: .3px;
+
+    border-radius: 5px;
+
+
+}
+
+main .content .mid .overview p {
+    margin: 8px 10px;
+    font-family: 'Acme', sans-serif;
+    background-color: #3e3939b3;
+    line-height: 130%;
+    font-size: 18px;
+    padding: 15px ;
+    border-radius: 10px;
+    word-spacing: 2px;
+    letter-spacing: .2px;
+}
+
+main .mid .submid {
+    border-bottom: 1px solid rgb(154, 150, 150);
+    padding: 10px;
+
+}
+
+
+
+
+
+main .mid .submid ol{
+    margin: 10px;
+    
+}
+
+
+
+
+
+
+
+main .mid .submid ol li {
+    list-style-type: disc;;
+    margin: 30px 7vw;
+    /* margin: 30px 10vw; */
+    font-size: 25px;
+    font-family: 'Acme', sans-serif;
+    /* text-align: center; */
+    
+}
+
+main .mid .submid ol li a{
+    color: white;
+    padding: 7px 14px;
+    border-radius: 10px;
+
+}
+main .mid .submid ol a:hover{
+    transition: all .3s;
+    background-color: #3e3939b3;
+
+}
+
+
+main .mid .submid_img {
+    width: 50vw;
+    height: 25vw;
+    border-radius: 30px;
+    
+    box-shadow: 2px 2px 8px 1px rgb(255, 255, 255);
+}
+
+
+
+
+
+main .content .imgsec {
+    margin: 30px 0px;
+    display: none;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------footer----------------------------- */
+
+
+
+footer {
+    background-color: #0e0e0e;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer .f {
+    margin: 10px 20px;
+
+}
+
+footer h3 {
+    color: rgb(255, 196, 0);
+    margin: 10px 0px;
+    font-size: 29px;
+
+    font-family: 'Carter One', cursive;
+    font-weight: 100;
+
+}
+
+footer .f ul {
+    padding: 0px 8px;
+}
+
+
+
+
+footer .f ul li::before {
+    content: "•";
+    margin: 0px 8px 0px 0px;
+    color: white;
+}
+
+
+
+footer .f ul li {
+
+    margin: 6px 0px;
+
+}
+
+footer .f ul a {
+    font-size: 17px;
+    color: white;
+    letter-spacing: .3px;
+
+}
+
+footer .box3 ul li::before {
+    content: none;
+}
+
+footer .box3 i {
+    margin: 0px 8px 0px 0px;
+    padding: 0px 2px;
+}
+
+
+
+
+footer .f ul li a:hover {
+    color: rgb(5, 255, 218);
+}
