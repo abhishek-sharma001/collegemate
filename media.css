@@ -92,10 +92,11 @@
      border: 1px solid black;
         margin:auto 0px;
         padding: 0px 10px;
+        text-align: center;
 
        font-size: 18px;
 
-        width: 400px;
+        width: 85vw;
         height:40px;
         background-color: rgb(255, 255, 255);;
     }
