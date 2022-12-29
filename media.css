@@ -1,0 +1,420 @@
+@media (max-width:850px) {
+    nav {
+
+        z-index: 100;
+
+
+    }
+
+
+
+    nav .left_nav #logoimg {
+
+        width: 60px;
+        height: 60px;
+
+        margin: 0px 5px;
+    }
+
+
+    nav .left_nav h1 a {
+        font-size: 30px;
+        margin: 0px 4px;
+
+    }
+
+
+
+
+    nav .center_nav ul {
+        border-top: 1px solid black;
+        position: fixed;
+        width: 100%;
+        z-index: 99;
+
+        margin: 0px;
+
+
+        height: 100%;
+        left: 100%;
+        top: var(--navheight);
+        background-color: rgb(49, 48, 49);
+
+        text-align: center;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease-in-out;
+
+    }
+
+    nav .center_nav #input_checkbox:checked~#center_nav_ul {
+
+        left: 0;
+        opacity: 1;
+        visibility: visible;
+
+    }
+
+    nav .center_nav #input_checkbox:checked~.labell #i_for_cross {
+        display: block;
+    }
+
+    nav .center_nav #input_checkbox:checked~.labell #i_for_bars {
+        display: none;
+
+    }
+
+
+
+    nav .center_nav li {
+        display: block;
+
+
+    }
+
+
+
+    #label_checkbox {
+        display: block;
+    }
+
+
+
+
+    nav .right_nav{
+        position: fixed;
+
+        top :  calc( var(--navheight) + 10px);
+
+    }
+
+    nav .right_nav #searchbar {
+     border: 1px solid black;
+        margin:auto 0px;
+        padding: 0px 10px;
+        text-align: center;
+
+       font-size: 18px;
+
+        width: 85vw;
+        height:40px;
+        background-color: rgb(255, 255, 255);;
+    }
+
+
+
+
+
+
+
+
+    /* ----------------------Content------------------------------ */
+
+
+
+    main .cards {
+
+        /* margin: 10px 50px; */
+        padding: 50px 10px;
+
+        width: 100%;
+        background-attachment: local;
+
+
+    }
+
+    main .cards{
+        padding-top: 100px;
+    }
+
+
+    main .content .top {
+        margin: 0px auto;
+
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+        overflow: none;
+
+
+    }
+
+
+
+    main .content .top .clgname {
+        margin: 10px 0px;
+        display: flex;
+        padding: 0px 20px 0px 8px;
+
+
+
+    }
+
+    main .content .clgname a {
+        font-size: 5.9vw;
+
+        color: rgb(255, 255, 255);
+    }
+
+
+    main .content .clglogo {
+        /* display: none; */
+        width: 13vw;
+        height: 100%;
+
+        margin: 15px 0px 15px 15px;
+
+    }
+
+
+
+
+
+
+
+
+    main .content .mid {
+        padding: 5px;
+
+    }
+
+
+
+    main .content .mid h2 {
+        font-size: 17px;
+
+        margin: 15px 0px;
+
+
+        width: fit-content;
+        padding: 7px 14px;
+
+
+
+
+    }
+
+    main .content .mid .overview p {
+        margin: 5px 7px;
+
+        font-size: 13px;
+        padding: 10px;
+
+    }
+
+    main .mid .submid {
+        border-bottom: 1px solid rgb(154, 150, 150);
+        padding: 10px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* -----------------------footer------------------------ */
+
+
+    footer {
+
+        justify-content: left;
+
+    }
+
+    footer .f {
+        margin: 10px 10vw;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:1022px) and (max-width :1335px) {
+
+
+
+    nav .left_nav h1 a {
+        font-size: 30px;
+
+    }
+
+
+
+
+
+    nav .center_nav ul {
+
+        margin: 0px 30px;
+
+
+
+    }
+
+
+    nav .center_nav li {
+        display: inline-block;
+        line-height: var(--navheight);
+        margin: 0px;
+
+
+
+    }
+
+
+    nav .center_nav li a {
+        padding: 8px 14px;
+        font-size: 15px;
+
+        color: rgb(252, 252, 252);
+
+        font-family: 'Domine', serif;
+
+        border-radius: 3px;
+
+        letter-spacing: .5px;
+
+
+    }
+
+
+
+    nav #or {
+        font-size: 15px;
+        color: black;
+    }
+
+
+    nav .right_nav a {
+        background-color: white;
+
+        padding: 7px 14px;
+        margin: 0px 5px;
+        font-size: 15px;
+
+        border-radius: 20px;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+@media (min-width:850px) and (max-width :1022px) {
+
+    nav .left_nav #logoimg {
+
+        width: 50px;
+        height: 50px;
+
+        margin: 0px 5px;
+    }
+
+    nav .left_nav {
+        margin: 0px;
+    }
+
+    nav .left_nav h1 a {
+        font-size: 25px;
+
+    }
+
+
+
+
+
+    nav .center_nav ul {
+
+        margin: 0px 30px;
+
+
+
+    }
+
+
+    nav .center_nav li {
+        display: inline-block;
+        line-height: var(--navheight);
+        margin: 0px;
+
+
+
+    }
+
+
+    nav .center_nav li a {
+        padding: 6px 12px;
+        font-size: 13px;
+
+        color: rgb(252, 252, 252);
+
+        font-family: 'Domine', serif;
+
+
+
+    }
+
+
+
+
+    nav #or {
+        font-size: 14px;
+        color: black;
+    }
+
+
+    nav .right_nav a {
+
+
+        padding: 7px 10px;
+        margin: 0px 5px;
+        font-size: 12px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
